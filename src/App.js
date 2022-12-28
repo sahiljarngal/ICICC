@@ -1,11 +1,11 @@
 import './App.css';
-import HeaderMain from './Components/header';
-import Hslides from "./Components/Hslides"
+import HeaderMain from './Components/Header/header';
+import Hslides from  "./Components/Hslides/Hslides"
 // import Navv from "./Components/Navbar/Navv.jsx"
-import FlagShip from './Components/HslidesImages/flagship';
-import AboutConference from './Components/abtConference';
+import FlagShip from './Components/Hslides/flagship';
+import AboutConference from './Components/AbtConference/abtConference';
 import ImpDate_Notices from './Components/impDates';
-import Footer from './Components/footer';
+import Footer from './Components/Footer/footer';
 // swiper 
 import "swiper/css/bundle";
 
