@@ -1,0 +1,75 @@
+.fcontainer{
+    width: 98%;
+    margin: 0 auto;
+}
+.fcontainer .heading{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(207,226,255);
+    color: rgba(0, 0, 255, 0.533);
+    padding: 3vh 0;
+}
+
+.submitPaper{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4vh 0;
+}
+.submitPaper button{
+   background-color: rgb(52,152,219);
+   padding: 1.5vh 3vh;
+   color: #fff;
+   outline: none;
+   border: none;
+   font-size: 18px;
+   border-radius: 12px;
+   cursor: pointer;
+}
+.submitPaper button a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.submitPaper button:hover{
+  background: linear-gradient(90deg, rgb(52,152,219) 0% , rgb(147, 213, 243) 100%);
+}
+
+
+/* cards section  */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin: 5vh 0;
+}
+
+.cards .card{
+    background-color:rgb(246, 246, 159);
+    text-align: center;
+    padding: 4vh 2vh;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    transition: all 0.5s ease-in-out;
+}
+.cards .card:hover{
+    transform: translateY(-12px);
+}
+.cards .card:nth-child(even)
+{
+    background-color: rgb(221, 221, 189);
+}
+
+.cards .card h1{
+    font-size: 20px;
+    color: rgb(82, 82, 197);
+}
+.cards .card p{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(32, 38, 42);
+}

@@ -1,0 +1,17 @@
+
+.swiper {
+  height: 80vh;
+  width: 98%;
+  margin: 2vh auto;
+}
+
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
