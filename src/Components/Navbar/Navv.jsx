@@ -17,8 +17,6 @@ function Navv() {
                     <NavLink  to="/">Homee</NavLink>
                 </li>
           
-             
-             
                   <details>
                     <summary
                      style={{backgroundColor:"red"}}
@@ -75,9 +73,13 @@ function Navv() {
                 <NavLink to="/callForInternational">Call for International Workshops</NavLink>
                 </li>
 
-
+              
 </details>
 
+
+               <li>
+                <NavLink to="/downloads">Downloads</NavLink>
+                </li>
 
 
                

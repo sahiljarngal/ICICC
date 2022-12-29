@@ -1,6 +1,7 @@
 
 import ImpDate from '../../impDates/impDates';
 import './Call_for_papers.css'
+import Footer from '../../Footer/footer';
 
 const Call_for_papers = () => {
 
@@ -94,6 +95,7 @@ const Call_for_papers = () => {
                                     </div>
 
                                     </div>
+                                    <Footer/>
                                     </>
                                     
                                 

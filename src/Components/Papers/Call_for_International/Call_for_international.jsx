@@ -1,7 +1,9 @@
 import './Call_for_international.css'
+import Footer from '../../Footer/footer';
 const Call_for_international = () =>{
 
     return  (
+        <>
         <div className="intern_container">
             <div>
                 <hr />
@@ -52,6 +54,8 @@ const Call_for_international = () =>{
                                 <b>ICICC-2023</b>
                                 </p><button type="button" className="btn btn-primary">Workshop Proposal Template</button>
                                 </div>
+                                <Footer/>
+                                </>
     )
     
 }

@@ -1,0 +1,44 @@
+.doHeading{
+    width: 96%;
+    margin: 2vh auto;
+    font-weight: 500;
+}
+
+.pdfImp{
+    width: 96%;
+    margin: 6vh auto;
+}
+
+
+
+.doPdf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.doPdf .pdf{
+    background-color: rgb(60, 108, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    border-radius: 12px;
+    padding: 4vh;
+    cursor: pointer;
+}
+.doPdf .pdf:hover{
+    background: linear-gradient(90deg, rgb(76, 76, 255) 0%, rgb(172, 167, 167) 100%);
+}
+.doPdf .pdf h1{
+    font-size: 20px;
+    color: #fff;
+}
+.doPdf .pdf a{
+    color: rgb(42, 39, 39);
+}
+
+.pdfImp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

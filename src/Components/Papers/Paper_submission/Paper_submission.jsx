@@ -1,10 +1,12 @@
 
 import './Paper_submission.css'
 // import ImpDate_Notices from '../../impDates';
+import Footer from '../../Footer/footer';
 import ImpDate from '../../impDates/impDates';
 const Paper_submission = ()=>{
 
     return ( 
+        <>
         <div>
             <h2 className="abtHeader">Paper Submission</h2>
             <hr />
@@ -34,6 +36,8 @@ const Paper_submission = ()=>{
                     </div>
                     </div>
                     </div>
+                    <Footer/>
+                    </>
         
     )
 

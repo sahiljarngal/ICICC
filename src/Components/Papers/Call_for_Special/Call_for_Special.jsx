@@ -1,8 +1,9 @@
 import './Call_for_Special.css'
-
+import Footer from '../../Footer/footer';
 const Call_for_Special = () => {
 
     return (
+        <>
         <div className="Special_container">
             <hr />
             <u>
@@ -48,6 +49,8 @@ const Call_for_Special = () => {
                                 <a href="">Session Proposal Template</a>
                                 </button>
                                 </div>
+                                <Footer/>
+                                </>
     )
 
 }
