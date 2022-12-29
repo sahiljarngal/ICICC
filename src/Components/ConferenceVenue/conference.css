@@ -1,0 +1,22 @@
+.conference{
+    margin: 4vh 0;
+}
+.conference h1{
+    width: 95%;
+    margin: 0 auto;
+}
+.coContainer{
+    width: 97%;
+    margin:2vh auto;
+    display: flex;
+    gap: 20px;
+}
+
+.conference .coAddress{
+    width: 97%;
+    margin: 0 auto;
+}
+.conference .coAddress h2{
+    font-weight: 500;
+    font-size: 18px;
+}

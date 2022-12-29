@@ -10,7 +10,7 @@ function FlagShip() {
           </div>
 
           <div className="submitPaper">
-            <button><a href="https://easychair.org/account/signin?l=oFuNkua7fnTXJAIEUf5wF5" target="_blank">Submit Paper</a></button>
+            <button><a href="#">Submit Paper</a></button>
           </div>
 
 

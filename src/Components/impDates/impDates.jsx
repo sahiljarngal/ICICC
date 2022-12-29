@@ -1,4 +1,5 @@
 import React from "react";
+import "./impDates.css"
 
 const arr=[
    {
@@ -6,15 +7,40 @@ const arr=[
       p: "January 10th, 2023",
    },
    {
-      h4: "Manuscript Submission Deadline:",
-      p: "January 10th, 2023",
+      h4: "Notification of first review:",
+      p: "January 15th, 2023",
    },
+   {
+      h4: "Submission of revised manuscript",
+      p: "January 20th, 2023",
+   },
+   {
+      h4: "Notification of Acceptance / Rejection",
+      p: "January 25th, 2023",
+   },
+   {
+      h4: "Final manuscript due",
+      p: "January 30th, 2023",
+   },
+   {
+      h4: "Registration Deadline",
+      p: "January 30th, 2023",
+   },
+   {
+      h4: "Final Paper Due",
+      p: "January 30th, 2023",
+   },
+
+   
+
+
+
 ]
 
 
-function ImpDate_Notices() {
+function ImpDate() {
     return ( 
-        <div className="impDate_Notices">
+        <div className="imp_Date">
 
             {/* important Date  */}
           <div className="impDate">
@@ -36,14 +62,10 @@ function ImpDate_Notices() {
              </div>
           </div>
 
-          {/* important Notices  */}
-          <div className="impNotices">
-
-          </div>
 
 
         </div>
       );
 }
 
-export default ImpDate_Notices;
+export default ImpDate;

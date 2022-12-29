@@ -47,7 +47,7 @@ function Footer() {
 
         <div className={classes.f_lower}>
             <h3>Copyright © International Conference on Innovative Computing and Communication | All Rights Reserved |</h3>
-            <p>Site By: Akshun Verma</p>
+            <p>Site By: _________</p>
         </div>
     </div>
     );
