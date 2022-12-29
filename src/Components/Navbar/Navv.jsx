@@ -14,7 +14,7 @@ function Navv() {
           
             }}>
                 <li>
-                    <NavLink  to="/">Home</NavLink>
+                    <NavLink  to="/">Homee</NavLink>
                 </li>
           
              
