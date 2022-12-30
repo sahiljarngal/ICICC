@@ -34,9 +34,7 @@ function Navv() {
                 
 
                 
-                <li>
-                <NavLink to="/special">Special Sessions</NavLink>
-                </li>
+        
 
                 <li>
                 <NavLink to="/workshops">WorkShops</NavLink>
@@ -79,6 +77,14 @@ function Navv() {
 
                <li>
                 <NavLink to="/downloads">Downloads</NavLink>
+                </li>
+
+                <li>
+                <NavLink to="/awards">Awards</NavLink>
+                </li>
+
+                <li>
+                <NavLink to="/spsessions">Special Sessions</NavLink>
                 </li>
 
 

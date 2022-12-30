@@ -1,23 +1,46 @@
-/* .Submission_con{
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,400;1,600;1,800&family=Poppins:ital,wght@1,200;1,400&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+
+.submission{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+}
+
+.Submission_con{
     display: flex;
     justify-content: space-around;
+    gap: 10px;
+    padding: 25px;
 }
 
 .Submission_desc{
-    width: 60vw;
+    /* width: 60vw; */
+    /* background-color: pink; */
     text-align: justify;
-    margin-top: 20px;
-    margin-left: 20px;
+   
+}
+.ph{
+    font-size: 20px;
+}
+
+.p_imp_dates{
+   
+    /* margin-top: 20px; */
+    height: 300px;
+    padding: 30px;
+    text-align: center;
 }
 
 .abtHeader{
     margin: 20px 40px;
+    font-weight: 500;
 }
 
-.imp_dates{
-    margin: 30px 0;
-    border: 1px solid black;
-    height: 500px;
-    padding: 60px;
-    text-align: center;
-} */
+@media only screen and (max-width: 730px)  {
+    .Submission_con{
+        flex-direction: column;
+    }
+
+    
+    
+}
+

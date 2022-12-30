@@ -1,8 +1,9 @@
 import './Call_for_Special.css'
-
+import Footer from '../../Footer/footer';
 const Call_for_Special = () => {
 
     return (
+        <>
         <div className="Special_container">
             <hr />
             <br />
@@ -37,7 +38,7 @@ const Call_for_Special = () => {
                     
                     <p>If you are interested to conduct a special session, kindly mail us the special session proposal at 
                         
-                        <a href="mailto:icicc.ui@gmail.com">icicc.ui@gmail.com</a> 
+                        <a href="mailto:icicc.ui@gmail.com"> icicc.ui@gmail.com</a> 
                         latest by 30th November 2022 as per the format attached with this mail.</p>
                         <p>ICICC br /ings together the innovative research in the field of Computing and Communication to a common platform. The primary goal of the conference is to promote research and developmental activities. Another goal is to promote scientific information interchange between researchers, developers, engineers, students, and practitioners working in and around the world.</p>
                         <br />
@@ -55,6 +56,8 @@ const Call_for_Special = () => {
                                 <a href=""></a>Session Proposal Template
                                 </button>
                                 </div>
+                                <Footer/>
+                                </>
     )
 
 }

@@ -1,13 +1,12 @@
 
 import './Paper_submission.css'
-// import ImpDate_Notices from '../../impDates';
 import Footer from '../../Footer/footer';
 import ImpDate from '../../impDates/impDates';
 const Paper_submission = ()=>{
 
     return ( 
         <>
-        <div>
+        <div className='submission'>
             <h2 className="abtHeader">Paper Submission</h2>
             <hr />
             <div className="Submission_con">
@@ -19,7 +18,9 @@ const Paper_submission = ()=>{
                         <li>All submissions will be thoroughly peer-reviewed by experts based on originality, significance and clarity.</li>
                         <li>Only papers presenting original content with novel research results or successful innovative applications will be considered for publication in the conference proceedings (as chapters in edited volumes of Springer Series).</li>
                         </ol>
-                        <h4>Plagiarism Policy</h4>
+                        <br />
+                        <h4 className='highlight ph'>Plagiarism Policy</h4>
+                        <br />
                     <ol>
                         <li>The paper prior to submission should be checked for plagiarism from licensed plagiarism softwares like Turnitin/iAuthenticate etc. The similarity content should not exceed 20% (in any case either self contents or others). Further, you have to strictly implement the following ethical guidelines for publication.</li>
                         <li>Any form of self-plagiarism or plagiarism from others' work(s) should not be there in an article. 
@@ -31,8 +32,8 @@ const Paper_submission = ()=>{
                     <br />
                     <br />
                     </div>
-                    <div classNameName='imp_dates'>
- <ImpDate />
+                    <div className='p_imp_dates'>
+                    <ImpDate />
                     </div>
                     </div>
                     </div>

@@ -49,7 +49,8 @@
     background-color:rgb(246, 246, 159);
     text-align: center;
     padding: 4vh 2vh;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    box-shadow: rgba(0, 128, 255, 0.4) 5px 5px, rgba(0, 128, 255, 0.3) 10px 10px,    
+    rgba(0, 128, 255, 0.2) 15px 15px, rgba(0, 128, 255, 0.1) 20px 20px, rgba(0, 128, 255, 0.05) 25px 25px;
     display: flex;
     flex-direction: column;
     gap: 6px;

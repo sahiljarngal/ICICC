@@ -1,20 +1,25 @@
 import './registration.css'
 import Footer from '../Footer/footer';
+import PayPal from './ResPayPal';
+import RazorPay from './ResRazorPay';
 
 function Registrations() {
     return ( 
-    
+    <>
         <div className="registration">
             <div className="reContainer">
              <h1 className="reHeading">Registration</h1>
-
-
+<hr className='reLine'/>
 {/* Registration and all  */}
 <div className="RegistrationMain">
              {/* Registrations Details  */}
  <div className="reDetail">
+
+    <div className="rePara">
     <p>Once Your paper is accepted, the registration process begins. you have to complete the following steps.</p>
-    <p> <h3>Step1 - Registration Fee:</h3> It is mandatory for at least one author of an accepted paper to register in order for the paper to appear in the proceedings and included in the Technical Program.</p>
+    
+    <p> <span className='reParaBold'>Step1 - Registration Fee:</span> It is mandatory for at least one author of an accepted paper to register in order for the paper to appear in the proceedings and included in the Technical Program.</p>
+    </div>
 
     <div className="reAuthors">
         <h2>Author/Co-Author Registration Fee Includes</h2>
@@ -37,10 +42,15 @@ function Registrations() {
 
 
 {/* Registration Account Details  */}
+<div className="reAccountMain">
+<h1 className='reAccountHeading'>Registration Account Details</h1>
+
+<div className="reAccountTransfer">
+
  <div className="reAccount">
-       <h1>Registration Account Details</h1>
+     
        <div className="reAccountBank">
-        <h2>Pay via Bank Transfer</h2>
+        <h2 className='reAccountBankHeading'>Pay via Bank Transfer</h2>
 
         <div className="reBankDetails">
             {/* 1st one  */}
@@ -100,29 +110,28 @@ function Registrations() {
  </div>
 
  {/* pay via paypal  */}
- <div className="payPal">
-    <h1>Pay via Paypal</h1>
-    <p>For Payment from International Authors/Attendees, use the following paypal link with additional 5% service charges applies Pay via Paypal</p>
-    <div className="payPalBtn">
-        <button><a href="https://www.paypal.com/paypalme/ICICCConference?locale.x=en_GB" target="_blank">Pay via Paypal</a></button>
-    </div>
+ <div className="Paypal">
+ <PayPal/>
  </div>
 
  {/* pay via razorpay  */}
- <div className="razorPay">
-    <h1>Pay via RazorPay</h1>
-    <p>For payment from Indian Authors/Attendees, use the following payment link
-Pay via Razorpay</p>
-    <div className="razorPayBtn">
-        <button><a href="https://pages.razorpay.com/pl_IOTJy0iZ8kxq43/view" target="_blank">Pay via RazorPay</a></button>
-    </div>
+ <div className="Razor">
+<RazorPay/>
+</div>
+
+
  </div>
+
+ </div>
+
  </div>
 
 
-            </div>
-            <Footer/>
+ </div>
+           
         </div>
+        <Footer/>
+        </>
      );
 }
 

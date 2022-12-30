@@ -7,13 +7,17 @@ const Call_for_international = () =>{
         <div className="intern_container">
             <div>
                 <hr />
+                <br />
                 <u>
-                    <b>Invitation to conduct International Workshop in ICICC 2023</b>
+                    <span className='highlight'>Invitation to conduct International Workshop in ICICC 2023</span>
                     </u>
                     <br />
                     <br />
                     <p className="greet">Dear Researcher/Colleagues</p>
-                    <p>Greeting from ICICC-2023!<br />
+                    <br />
+                    
+                    <p>Greeting from ICICC-2023!
+                    <br />
                     <br />ICICC Conference team invites you to organize the 
                     <span className="highlight"> International Workshop </span> 
                     in the 
@@ -26,7 +30,8 @@ const Call_for_international = () =>{
                       <br />
                       <br />By being part of this conference as a session chair and leading your own session at this esteemed conference, please increase the importance of the conference. We understand your networking skills and have an eye on identifying quality research papers.</p>
                       </div>
-                      <b>Highlights of the International Workshops and Benefits:</b>
+                      <br />
+                      <span className='highlight'>Highlights of the International Workshops and Benefits:</span>
                       <ul>
                         <li>All accepted papers will be published in the proceedings of ICICC-2023 (SCOPUS Indexed).</li>
                         <li>The workshop organizers will be entitled to receive a renumeration of 20% of the total fees collected in the workshop.</li>
@@ -39,6 +44,7 @@ const Call_for_international = () =>{
                             <li>Many International and National key note speakers will be delivering their lectures on latest innovative technologies in the conference.</li>
                             <li>Easy accessibility of the well-connected conference venue.</li>
                         </ul>
+                        <br />
                         <p>If you are interested to conduct an International Workshop, please email us the workshop proposal at 
                             <a href="mailto:icicc.ui@gmail.com"> icicc.ui@gmail.com </a> 
                             with subject line as
@@ -52,7 +58,9 @@ const Call_for_international = () =>{
                                 Organizer and Convener
                                 <br />
                                 <b>ICICC-2023</b>
-                                </p><button type="button" className="btn btn-primary">Workshop Proposal Template</button>
+                                </p>
+                                <br />
+                                <button type="button" className="btn btn-primary">Workshop Proposal Template</button>
                                 </div>
                                 <Footer/>
                                 </>

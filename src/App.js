@@ -16,8 +16,6 @@ import Footer from './Components/Footer/footer';
 import About from './Components/AboutSection/about';
 import AboutUniversal from './Components/AboutSection/about1';
 
-// Special Sessions 
-import SpecialSessions from './Components/SpecialSession/special';
 
 // Workshop Sessions 
 import WorkShops from './Components/WorkshopSection/workshop';
@@ -34,6 +32,8 @@ import Call_for_papers from './Components/Papers/Call_for_papers/Call_for_papers
 import Call_for_Special from './Components/Papers/Call_for_Special/Call_for_Special';
 import Paper_submission from './Components/Papers/Paper_submission/Paper_submission';
 import Downloads from './Components/Downloads/Download';
+import Awards from './Components/AwardsSection/Award';
+import SpecialCard from './Components/SpecialSession/SpecialCard';
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"></link>
 
@@ -77,8 +77,6 @@ function App() {
 
 <Route path='about1' element={<AboutUniversal/>}/>
 
-<Route path='special' element={<SpecialSessions/>}/>
-
 <Route path='workshops' element={<WorkShops/>}/>
 
 <Route path='sponsorships' element={<SponserShip/>}/>
@@ -96,6 +94,12 @@ function App() {
 <Route path='paperSubmissions' element={<Paper_submission/>}/>
 
 <Route path='downloads' element={<Downloads/>}/>
+
+<Route path='awards' element={<Awards/>}/>
+
+<Route path='spsessions' element={<SpecialCard/>}/>
+
+
 
 
 
