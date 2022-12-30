@@ -2,6 +2,7 @@ import './registration.css'
 import Footer from '../Footer/footer';
 import PayPal from './ResPayPal';
 import RazorPay from './ResRazorPay';
+import RegistrationFee from './RegistrationFee'
 
 function Registrations() {
     return ( 
@@ -39,7 +40,6 @@ function Registrations() {
 
 
  </div>
-
 
 {/* Registration Account Details  */}
 <div className="reAccountMain">
@@ -125,6 +125,11 @@ function Registrations() {
  </div>
 
  </div>
+
+{/* Registration Fee part  */}
+<div className="reFee">
+  <RegistrationFee/>
+</div>
 
 
  </div>

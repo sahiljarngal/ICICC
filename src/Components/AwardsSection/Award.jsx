@@ -1,6 +1,8 @@
 import './Award.css'
 import AwardsCards from './AwardsCards';
+import HiEduAward from './HiEduAward/HiEduAward';
 import Footer from "../Footer/footer";
+import Submission from './Sub_Nom_Paward/SuNoPaward';
 function Awards() {
     return ( 
 <>
@@ -75,11 +77,28 @@ function Awards() {
     </div>
 </div>
 
+{/* higher Education awards  */}
+<div className="HiEdAward">
+  <div className="HiAward">
+   <HiEduAward/>
+  </div>
+</div>
  
       
 
 
     </div>
+
+
+   {/* submission, nomination, past awardees  */}
+    <div className="submissionSection">
+      <Submission/>
+    </div>
+
+    <div className="nominationSection">
+
+    </div>
+
 </div>
 <Footer/>
 </>
