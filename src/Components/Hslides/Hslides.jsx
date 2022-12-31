@@ -6,10 +6,15 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
+// import "swiper/css";
+// import "swiper/css/effect-fade";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+
+// Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 // css of the slides 
 import "./Hslides.css"
@@ -20,32 +25,51 @@ import Img2 from "./HslidesImages/img2.png"
 import Img3 from "./HslidesImages/img3.png"
 
 // import required modules
-import { EffectFade, Navigation, Pagination } from "swiper";
+// import { EffectFade, Navigation, Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
+
 
 export default function App() {
   return (
     <>
       <Swiper
+        slidesPerView={1}
         spaceBetween={30}
-        effect={"fade"}
-        navigation={true}
+        loop={true}
         pagination={{
           clickable: true,
         }}
-        modules={[EffectFade, Navigation, Pagination]}
+        navigation={true}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={Img1} />
+          <div className="swImg">
+          <img src={Img1} alt="" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Img2} />
+        <div className="swImg">
+          <img src={Img2} alt="" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Img3}/>
+        <div className="swImg">
+          <img src={Img3} alt="" />
+          </div>
         </SwiperSlide>
-      
+        
       </Swiper>
     </>
   );
 }
+
+
+
+// fdjkasfkkafj al;kfj 
+
+// Import Swiper React components
+
+
+
+// import required modules

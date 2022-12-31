@@ -54,11 +54,11 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
-
     transition: all 0.5s ease-in-out;
 }
 .cards .card:hover{
     transform: translateY(-12px);
+    background-color: red;
 }
 .cards .card:nth-child(even)
 {

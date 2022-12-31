@@ -13,6 +13,9 @@
     margin-bottom: 1vh;
 
 }
+.AdvisoryCmte hr{
+    z-index: -1;
+}
 
 
 /* adding media query  */

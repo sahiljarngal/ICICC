@@ -6,7 +6,6 @@
 }
 
 .main-card{
-    
     width: 90%;
     margin:2vh auto;
     display: grid;
@@ -15,6 +14,7 @@
     justify-content: center;
 }
 .card{
+    z-index: -1;
     border: 1px solid;
     border-radius: 10px;
     background-color: #3A66B8;
