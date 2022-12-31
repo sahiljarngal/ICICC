@@ -21,3 +21,29 @@ font-size: 22px;
 .tecPara h3{
     font-size: 1rem;
 }
+
+
+
+
+/* adding media query  */
+
+
+@media(max-width:1000px)
+{
+    .tecCard{
+        gap: 2rem;
+    }
+
+    
+}
+
+@media(max-width:650px)
+{
+    .tecCards{
+        width: 90%;
+    }
+    .tecCard{
+        grid-template-columns: 1fr ;
+    }
+   
+}

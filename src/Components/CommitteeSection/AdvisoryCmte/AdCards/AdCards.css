@@ -18,3 +18,14 @@
 .adCard:hover{
     transform: translateY(-6px);
 }
+
+/* media query  */
+@media(max-width:550px)
+{
+    .adCards{
+        grid-template-columns: 1fr ;
+    gap: 2rem;
+
+    }
+
+}

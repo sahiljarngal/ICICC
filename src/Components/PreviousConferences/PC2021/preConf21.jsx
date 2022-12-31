@@ -4,7 +4,7 @@ import PcLinks from "../pcLinks";
 import Footer from "../../Footer/footer";
 import ImpDate from "../../impDates/impDates";
 import PcImages from "../pcImages.jsx";
-import './preConf21.css'
+import '../PCcmnCss/PCcss.css'
 
 // images 
 import Img1 from './PcImages21/icicc1.jpeg'

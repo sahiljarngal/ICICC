@@ -44,7 +44,7 @@ function Downloads() {
          </div>
 
          {/* 4th  */}
-         <div className="pdf pdf1">
+         <div className="pdf pdf1"> 
             <h1>Icicc Bronchure</h1>
             <a href={Pdf4} target="_blank"> <FaDownload/></a>
          </div>

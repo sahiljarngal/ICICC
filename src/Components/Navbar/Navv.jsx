@@ -34,6 +34,53 @@ function Navv() {
 
 
 
+{/* papers  */}
+<details>
+              <summary>Papers</summary>
+              <li>
+                <NavLink to="/callForPapers">Call for Papers</NavLink>
+              </li>
+
+              <li>
+                <NavLink to="/paperSubmissions">Paper Submissions</NavLink>
+              </li>
+
+              <li>
+                <NavLink to="/callForSpecial">Call for Special</NavLink>
+              </li>
+
+              <li>
+                <NavLink to="/callForInternational">Call for International Workshops</NavLink>
+              </li>
+
+
+            </details>
+
+{/* special sessions  */}
+            <li>
+              <NavLink to="/spsessions">Special Sessions</NavLink>
+            </li>
+
+{/* workshops  */}
+            <li>
+              <NavLink to="/workshops">WorkShops</NavLink>
+            </li>
+
+{/* registrations */}
+            <li>
+              <NavLink to="/registrations">Registration</NavLink>
+            </li>
+
+{/* sponsorships  */}
+            <li>
+              <NavLink to="/sponsorships">Sponsorships</NavLink>
+            </li>
+
+{/* public  */}
+            <li>
+              <NavLink to="/publications">Publications</NavLink>
+            </li>
+
 {/* Committe   */}
             <details>
               <summary>Committee</summary>
@@ -56,71 +103,23 @@ function Navv() {
 
             </details>
 
-
-
-
-
-            <li>
-              <NavLink to="/workshops">WorkShops</NavLink>
-            </li>
-
-            <li>
-              <NavLink to="/sponsorships">Sponsorships</NavLink>
-            </li>
-
-            <li>
-              <NavLink to="/conferences">Conference Venue</NavLink>
-            </li>
-
-            <li>
-              <NavLink to="/registrations">Registration</NavLink>
-            </li>
-
-
-{/* papers  */}
-            <details>
-              <summary>Papers</summary>
-              <li>
-                <NavLink to="/callForPapers">Call for Papers</NavLink>
-              </li>
-
-              <li>
-                <NavLink to="/paperSubmissions">Paper Submissions</NavLink>
-              </li>
-
-              <li>
-                <NavLink to="/callForSpecial">Call for Special</NavLink>
-              </li>
-
-              <li>
-                <NavLink to="/callForInternational">Call for International Workshops</NavLink>
-              </li>
-
-
-            </details>
-
-
-
-
-
-
-            <li>
-              <NavLink to="/downloads">Downloads</NavLink>
-            </li>
-
+{/* awards  */}
             <li>
               <NavLink to="/awards">Awards</NavLink>
             </li>
 
+         
+{/* conference Venue  */}
             <li>
-              <NavLink to="/spsessions">Special Sessions</NavLink>
+              <NavLink to="/conferences">Conference Venue</NavLink>
             </li>
 
+{/* downloads  */}
             <li>
-              <NavLink to="/publications">Publications</NavLink>
+              <NavLink to="/downloads">Downloads</NavLink>
             </li>
 
-
+           
 {/* previous conferences  */}
         <details>
           <summary>Previous Conferences</summary>

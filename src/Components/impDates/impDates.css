@@ -11,6 +11,7 @@
 .impDate{
     border: 1px solid rgb(23, 22, 22);
     padding: 4vh;
+    margin: 0 auto;
     width: 40vw;
 }
 .impDate .dates{
@@ -30,4 +31,17 @@
     font-size: 16px;
     color:rgb(18, 18, 20);
     font-weight: 600;
+}
+
+@media(max-width:800px)
+{
+    .imp_Date{
+        width: 98%;
+        margin: 0 auto;
+        /* width: 40vw; */
+    }
+    .impDate{
+        width: 80vw;
+
+    }
 }

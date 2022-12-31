@@ -6,15 +6,13 @@
 }
 
 .Submission_con{
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3rem;
     padding: 25px;
 }
 
 .Submission_desc{
-    /* width: 60vw; */
-    /* background-color: pink; */
     text-align: justify;
    
 }
@@ -24,9 +22,6 @@
 
 .p_imp_dates{
    
-    /* margin-top: 20px; */
-    height: 300px;
-    padding: 30px;
     text-align: center;
 }
 
@@ -35,9 +30,9 @@
     font-weight: 500;
 }
 
-@media only screen and (max-width: 730px)  {
+@media(max-width: 800px)  {
     .Submission_con{
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     

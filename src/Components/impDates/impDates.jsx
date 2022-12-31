@@ -1,6 +1,8 @@
 import React from "react";
 import "./impDates.css"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const arr=[
    {
       h4: "Manuscript Submission Deadline:",
@@ -43,7 +45,7 @@ function ImpDate() {
         <div className="imp_Date">
 
             {/* important Date  */}
-          <div className="impDate">
+          <div className="impDate" data-aos="slide-left">
              <h1>Important Dates</h1>
              <div className="dates">
 

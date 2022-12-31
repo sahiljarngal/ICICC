@@ -45,3 +45,13 @@
     cursor: pointer;
     opacity: 1;
 }
+
+
+
+/* adding media query  */
+@media(max-width:900px)
+{
+    .abLeftRight{
+        grid-template-columns: 1fr;
+    }
+}

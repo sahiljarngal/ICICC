@@ -23,18 +23,15 @@
 }
 
 .Call_con{
-    display: flex;
+   display: grid;
     line-height: 30px;
     gap: 10px;
-    justify-content: space-around;
+    grid-template-columns: 3fr 1fr;
 }
-@media only screen and (max-width: 730px)  {
+@media(max-width: 800px)  {
 
-    
-    .Call_con{
-        gap: 0;
-        flex-direction: column;
-    }
-   
+   .Call_con{
+    grid-template-columns: 1fr;
+   }
     
 }

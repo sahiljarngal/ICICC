@@ -8,7 +8,7 @@
     padding: 3vh;
     border-radius: 10px;
 }
-.aPartcipationHead h1{
+.aPartcipationHead h1{ 
     font-size: 22px;
 }
 
@@ -135,4 +135,26 @@ border: 1px solid rgb(195, 195, 195);
 
 
 
+
+/* adding media query  */
+
+@media(max-width:900px)
+{
+    .CardsAward .awCard{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:500px)
+{
+    .CardsAward .awCard{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:800px)
+{
+    .aParticipation{
+        width: 90%;
+    }
+}
 

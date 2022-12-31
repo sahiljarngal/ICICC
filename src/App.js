@@ -49,7 +49,11 @@ import PreConf20 from './Components/PreviousConferences/PC2020/preConf20';
 import PreConf19 from './Components/PreviousConferences/PC2019/preConf19';
 import PreConf18 from './Components/PreviousConferences/PC2018/preConf18';
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"></link>
+// home and notice 
+import HoDateNotice from './Components/Date_Notices/HomeDateNotice';
+
+
+
 
 
 
@@ -68,21 +72,7 @@ function App() {
 <Hslides/>
 <FlagShip/>
 <AboutConference/>
-<div className='Date_Notices'
- style={
-  {display:"grid",
-  gridTemplateColumns:"repeat(2,1fr)",
-  width:"98%", 
-  margin:"auto",
-  justifyContent:"center",
-  margin:"4vh 0"
-}
- 
- }
->
-<ImpDate/>
-<ImpNotices/>
-</div>
+<HoDateNotice/>
  <Footer/>
 </>
 

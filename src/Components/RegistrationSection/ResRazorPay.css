@@ -30,3 +30,12 @@
 
 }
 
+
+
+/* adding media query  */
+@media(max-width:900px)
+{
+    .razorPay p{
+    padding: 1rem;
+    }
+}

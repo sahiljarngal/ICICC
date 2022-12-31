@@ -1,8 +1,11 @@
 import "./ResRazorPay.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 function RazorPay() {
     return (   
         <>
-         <div className="razorPay">
+         <div className="razorPay" data-aos="slide-up">
     <h1>Pay via RazorPay</h1>
     <p>For payment from Indian Authors/Attendees, use the following payment link
 Pay via Razorpay</p>

@@ -5,7 +5,7 @@ function HiEduAward() {
         <>
         <div className="HieduMain">
             <h2>Higher Education Awards</h2>
-  <HiEduData/>
+            <HiEduData/>
         </div>
         </>
      );

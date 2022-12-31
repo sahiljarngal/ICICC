@@ -20,3 +20,20 @@
     font-weight: 500;
     font-size: 18px;
 }
+.conference .coAddress h1{
+    margin: 2vh 0;
+}
+
+
+@media(max-width:900px)
+{
+    .coContainer{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+    .coRight{
+        margin: 4vh 0;
+    }
+}

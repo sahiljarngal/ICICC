@@ -1,6 +1,8 @@
 import React from "react";
 import "./impNotices.css"
 
+
+
 const arr=[
   
    {
@@ -19,7 +21,7 @@ function ImpNotices() {
         <div className="imp_Notices">
 
             {/* important Date  */}
-          <div className="impNotices">
+          <div className="impNotices" >
              <h1>Important Notices</h1>
              <div className="notices">
 

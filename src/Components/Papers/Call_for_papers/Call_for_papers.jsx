@@ -9,9 +9,10 @@ const Call_for_papers = () => {
             <div className='cfp'>
                 <h2 className="bold">Call For Papers</h2>
                 <br />
-                <hr />
+                <hr /> 
                 <br />
                 <div className="Call_con">
+                    
                     <div className="call_desc">
                         <p>The scope of this conference is to provide a platform for researchers, engineers, academicians as well as industrial professionals from all over the world to present their research results and development activities in various topics of Engineering and Technology. It allows participants an opportunity to discuss the recent developments in the field of solidification computer science and management and review challenges faced by the community in the 21st century. The conference consists of invited</p>
                         <br />
@@ -94,6 +95,8 @@ const Call_for_papers = () => {
                         <br />
                         <p>All papers will undergo a blind peer review process and all accepted papers will be published in the SHORT NAME conference e-proceedings with an e-ISBN number. The conference organizer encourages submissions of academic and research papers that consider the multidisciplinary/interdisciplinary themes covering the Management, Science and Social Studies, through one of the following sub-themes, although submissions of other topics for consideration are also welcome.</p>
                     </div>
+
+
                     <div className="imp_dates">
                         <ImpDate />
                     </div>

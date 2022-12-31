@@ -13,7 +13,7 @@ import {
 import './SpecialCard.css'
 import data from './SpecialData.jsx';
 import Footer from '../Footer/footer';
-
+import 'animate.css';
 export default function SpecialCard() {
   return (
 
@@ -23,7 +23,7 @@ export default function SpecialCard() {
       <h1>Special Sessions</h1>
       <hr />
      </div>
-    <div className='main-card'>
+    <div className='main-card SpSessionCard animate__animated animate__bounceInLeft'>
         {data.map((qwe)=>{
             return(
                 <MDBCard className='card' alignment='center'>

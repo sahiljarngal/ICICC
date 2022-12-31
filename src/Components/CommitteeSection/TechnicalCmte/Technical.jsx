@@ -11,7 +11,7 @@ function TechnicalCmte() {
          <div className="technical">
             <div className="tecCards">
                  <TecCards/>
-            </div>
+            </div> 
             <div className="tecImpDate">
                 <ImpDate/>
             </div>

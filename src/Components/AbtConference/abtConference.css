@@ -45,11 +45,22 @@ a{
     margin-top: 3vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 70%;
+}
+.Rabout .dwnldSection p{
+    margin-bottom: 3vh;
 }
 .Rabout .dwnldSection a{
     color: rgb(0, 128, 255);
     font-size: 16px;
     font-weight: 500;
+}
+
+
+@media(max-width:800px)
+{
+    .ccontainer .about{
+        grid-template-columns: 1fr;
+       }
 }

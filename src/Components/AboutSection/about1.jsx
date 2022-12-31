@@ -2,12 +2,12 @@ import React from "react";
 import ImpDate from "../impDates/impDates";
 import Footer from "../Footer/footer";
 import "./about.css"
-
+import 'animate.css';
 function AboutUniversal() {
     return ( 
 <>
         <div className="about">
-            <div className="abcontainer">
+            <div className="abcontainer animate__animated animate__backInRight">
 
 <div className="aboutMain">
 <h2>About Univeral Innovators</h2>

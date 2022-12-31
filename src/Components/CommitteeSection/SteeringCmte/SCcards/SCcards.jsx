@@ -14,7 +14,7 @@ function SCcards() {
     ];
 
     let genChair=[
-        {
+        { 
             h1:"Dr. Prabhat Kumar",
             p:"(Professor, CSE, National Institute of Technology Patna)"
         },

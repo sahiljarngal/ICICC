@@ -10,6 +10,7 @@ const Paper_submission = ()=>{
             <h2 className="abtHeader">Paper Submission</h2>
             <hr />
             <div className="Submission_con">
+{/* left  */}
                 <div className="Submission_desc">
                     <p>The Original unpublished Research Papers, Articles &amp; Working papers having maximum length 8 pages on the topics related to the theme are invited for presentation/publication in the conference proceedings.</p>
                     <ol>
@@ -32,9 +33,11 @@ const Paper_submission = ()=>{
                     <br />
                     <br />
                     </div>
+{/* right  */}
                     <div className='p_imp_dates'>
                     <ImpDate />
                     </div>
+                    
                     </div>
                     </div>
                     <Footer/>

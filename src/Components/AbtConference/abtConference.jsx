@@ -1,6 +1,10 @@
 import React from "react";
 import "./abtConference.css"
 import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 function AboutConference() {
     return (
 
@@ -11,7 +15,7 @@ function AboutConference() {
                 </div>
                 <hr />
 
-<div className="about">
+<div className="about" data-aos="flip-down">
 
     {/* Left about  */}
                 <div className="Labout">

@@ -29,3 +29,12 @@
 
 }
 
+
+
+/* adding media query  */
+@media(max-width:900px)
+{
+    .payPal p{
+    padding: 1rem;
+    }
+}

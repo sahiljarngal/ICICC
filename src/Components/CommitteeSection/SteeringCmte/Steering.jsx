@@ -12,7 +12,7 @@ function StCommittee() {
        <hr />
        <div className="stCommittee">
 
-        <div className="stScards">
+        <div className="stScards"> 
         <SCcards/>
         </div>
 

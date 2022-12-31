@@ -29,3 +29,12 @@
 }
 
 
+
+/* adding media query  */
+@media(max-width:800px)
+{
+   
+    .imp_Notices{
+        width: 80vw;
+    }
+}

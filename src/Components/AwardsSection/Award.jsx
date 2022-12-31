@@ -95,9 +95,7 @@ function Awards() {
       <Submission/>
     </div>
 
-    <div className="nominationSection">
-
-    </div>
+ 
 
 </div>
 <Footer/>

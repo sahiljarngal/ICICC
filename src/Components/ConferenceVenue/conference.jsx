@@ -11,12 +11,22 @@ function Conference() {
         <div className="coContainer">
         
         {/* left  */}
-        <div className="coLeft">
+        <div className="coLeft"> 
           
           <div className="coLeftImg">
             <img src={Venue} alt="Venue" />
           </div>
 
+          <div className="coAddress">
+  <h1>Address:</h1>
+    <h2>Shaheed Sukhdev College Of Business Studies(University Of Delhi)</h2>
+    <h2>Dr. K.N. Katju Marg Rohini Sector 16,</h2>
+    <h2>PSP Area IV, New Delhi,</h2>
+    <h2>Delhi 110089</h2>
+    <h2>INDIA</h2>
+    <h2>Email: icicc.ui@gmail.com</h2>
+
+</div>
         </div>
 
         {/* Right  */}
@@ -27,15 +37,6 @@ function Conference() {
         </div>
 
 
-<div className="coAddress">
-    <h2>Shaheed Sukhdev College Of Business Studies(University Of Delhi)</h2>
-    <h2>Dr. K.N. Katju Marg Rohini Sector 16,</h2>
-    <h2>PSP Area IV, New Delhi,</h2>
-    <h2>Delhi 110089</h2>
-    <h2>INDIA</h2>
-    <h2>Email: icicc.ui@gmail.com</h2>
-
-</div>
 
        </div>
 

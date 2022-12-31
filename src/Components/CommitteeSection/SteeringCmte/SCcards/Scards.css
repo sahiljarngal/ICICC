@@ -15,6 +15,7 @@
 .patronMain{
    display: flex;
    flex-direction: column;
+   flex-wrap: wrap;
 }
 .patrondata{
     margin: 1vh 0;
@@ -37,4 +38,27 @@
 }
 .patrondata p{
     font-size: 1rem;
+}
+
+
+/* adding media query  */
+
+
+@media(max-width:1000px)
+{
+    .patrondata{
+    height: 18vh;
+    }
+
+    
+}
+
+@media(max-width:700px)
+{
+    .PaGeCommon{
+        grid-template-columns: 1fr ;
+    }
+    .patrondata{
+        height: 16vh;
+    }
 }

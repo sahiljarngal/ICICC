@@ -1,5 +1,7 @@
 import React from "react";
 import "./flagship.css"
+
+
 function FlagShip() {
     return ( 
         <div className="flagsip">
@@ -16,9 +18,9 @@ function FlagShip() {
 
           {/* cards start */}
 
-          <div className="cards">
+          <div className="cards" >
             {/* card1  */}
-            <div className="card1 card">
+            <div className="card1 card  ">
               <h1>2494</h1>
               <p>Citations</p>
             </div>
