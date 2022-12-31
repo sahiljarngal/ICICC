@@ -1,0 +1,15 @@
+.AdCmte{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    margin: 8vh 0;
+}
+.AdvisoryCmte{
+    width: 96%;
+    margin: 2vh auto;
+}
+.AdvisoryCmte h2{
+    font-size: 2rem;
+    margin-bottom: 1vh;
+
+}

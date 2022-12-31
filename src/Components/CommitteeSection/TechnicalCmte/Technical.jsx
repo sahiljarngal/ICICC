@@ -5,17 +5,20 @@ import Footer from '../../Footer/footer';
 function TechnicalCmte() {
     return ( 
         <>
+        <div className="technicalMain">
+            <h3>Technical Committee</h3>
+            <hr />
          <div className="technical">
             <div className="tecCards">
-{/* // tecCards  */}
-<TecCards/>
+                 <TecCards/>
             </div>
             <div className="tecImpDate">
                 <ImpDate/>
             </div>
          </div>
+         </div>
          <Footer/>
-        </>
+        </> 
      );
 }
 

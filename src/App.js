@@ -35,10 +35,19 @@ import Downloads from './Components/Downloads/Download';
 import Awards from './Components/AwardsSection/Award';
 import SpecialCard from './Components/SpecialSession/SpecialCard';
 import Publication from './Components/PublicationsSection/Publication';
+
+// committes 
 import AdvisoryCmte from './Components/CommitteeSection/AdvisoryCmte/Advisory';
 import IndustryCmte from './Components/CommitteeSection/IndustryCmte/Industry';
 import StCommittee from './Components/CommitteeSection/SteeringCmte/Steering';
 import TechnicalCmte from './Components/CommitteeSection/TechnicalCmte/Technical';
+
+// Previous Conference 
+import PreConf22 from './Components/PreviousConferences/PC2022/preConf22';
+import PreConf21 from './Components/PreviousConferences/PC2021/preConf21';
+import PreConf20 from './Components/PreviousConferences/PC2020/preConf20';
+import PreConf19 from './Components/PreviousConferences/PC2019/preConf19';
+import PreConf18 from './Components/PreviousConferences/PC2018/preConf18';
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"></link>
 
@@ -113,6 +122,12 @@ function App() {
 <Route path='industrys' element={<IndustryCmte/>}/>
 
 
+{/* Previous Conferences  */}
+<Route path='pcConferences22' element={<PreConf22/>}/>
+<Route path='pcConferences21' element={<PreConf21/>}/>
+<Route path='pcConferences20' element={<PreConf20/>}/>
+<Route path='pcConferences19' element={<PreConf19/>}/>
+<Route path='pcConferences18' element={<PreConf18/>}/>
 
 
 

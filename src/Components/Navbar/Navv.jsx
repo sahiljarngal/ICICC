@@ -100,6 +100,10 @@ function Navv() {
             </details>
 
 
+
+
+
+
             <li>
               <NavLink to="/downloads">Downloads</NavLink>
             </li>
@@ -117,7 +121,29 @@ function Navv() {
             </li>
 
 
+{/* previous conferences  */}
+        <details>
+          <summary>Previous Conferences</summary>
+          <li>
+              <NavLink to="/pcConferences22">ICCIC 2022</NavLink>
+            </li>
 
+            <li>
+              <NavLink to="/pcConferences21">ICCIC 2021</NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/pcConferences20">ICCIC 2020</NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/pcConferences19">ICCIC 2019</NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/pcConferences18">ICCIC 2018</NavLink>
+            </li>
+        </details>
 
 
 

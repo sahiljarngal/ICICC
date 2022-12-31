@@ -10,7 +10,7 @@ function HeaderMain() {
 
         <div className="headerMain">
               
-              <div className="header container">
+              <div className="header hcontainer">
 
                 {/* images  */}
                 <div className="img1">

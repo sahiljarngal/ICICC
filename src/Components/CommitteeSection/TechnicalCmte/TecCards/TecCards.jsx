@@ -702,13 +702,12 @@ const tecMembers=[
 
 function TecCards() {
     return ( 
-      <>
+     
        <div className="tecCards">
         <div className="tecCard">
             {
                 tecMembers.map((a,i)=>{
                     return(
-                       
                         <div className="tecPara" key={i}>
                         <h3>{a.h1}</h3>
                         </div>
@@ -719,7 +718,7 @@ function TecCards() {
         </div>
 
        </div>
-      </>
+   
      );
 }
 
