@@ -45,7 +45,7 @@ function ImpDate() {
         <div className="imp_Date">
 
             {/* important Date  */}
-          <div className="impDate" data-aos="slide-left">
+          <div className="impDate" data-aos="zoom-in-down">
              <h1>Important Dates</h1>
              <div className="dates">
 
