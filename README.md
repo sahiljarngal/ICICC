@@ -16,7 +16,7 @@
 ### Link of the website
 - [Please Click Here](https://icicc-conference.netlify.app/)
 
-- ![](https://img.shields.io/badge/HTML--CSS-JavaScript-lightgrey)
+- ![](https://img.shields.io/badge/Html--CSS--JS-React-orange)
 
 ![](./images/screen.png)
  ### Feedback
