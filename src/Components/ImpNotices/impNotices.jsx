@@ -9,6 +9,7 @@ const arr=[
       h4: "ICICC - 2023 will be organised by Shaheed Sukhdev College of Business Studies, Delhi university, India on 17-18 February 2023.",
       
    },
+   
 
    
 

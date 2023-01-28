@@ -76,11 +76,11 @@ function clickHandler(){
   <FaSortDown/>
   Previous Conferences
             <div className="dropdown-content">
-            <NavLink to="/pcConferences22">ICCIC 2022</NavLink>
-            <NavLink to="/pcConferences21">ICCIC 2021</NavLink>
-            <NavLink to="/pcConferences20">ICCIC 2020</NavLink>
-            <NavLink to="/pcConferences19">ICCIC 2019</NavLink>
-            <NavLink to="/pcConferences18">ICCIC 2018</NavLink>
+            <NavLink to="/pcConferences22">ICICC 2022</NavLink>
+            <NavLink to="/pcConferences21">ICICC 2021</NavLink>
+            <NavLink to="/pcConferences20">ICICC 2020</NavLink>
+            <NavLink to="/pcConferences19">ICICC 2019</NavLink>
+            <NavLink to="/pcConferences18">ICICC 2018</NavLink>
 
             </div></li>
 

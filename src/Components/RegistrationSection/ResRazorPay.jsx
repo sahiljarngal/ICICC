@@ -5,7 +5,7 @@ AOS.init();
 function RazorPay() {
     return (   
         <>
-         <div className="razorPay" data-aos="slide-up">
+         <div className="razorPay" data-aos="slide-right">
     <h1>Pay via RazorPay</h1>
     <p>For payment from Indian Authors/Attendees, use the following payment link
 Pay via Razorpay</p>
@@ -13,7 +13,7 @@ Pay via Razorpay</p>
         <button><a href="https://pages.razorpay.com/pl_IOTJy0iZ8kxq43/view" target="_blank">Pay via RazorPay</a></button>
     </div>
  </div>
-        </>
+        </> 
      );
 }
 

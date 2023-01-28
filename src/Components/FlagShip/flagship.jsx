@@ -18,33 +18,33 @@ function FlagShip() {
 
           {/* cards start */}
 
-          <div className="cards" >
+          <div className="flcards" >
             {/* card1  */}
-            <div className="card1 card  ">
+            <div className="card1 flcard  ">
               <h1>2494</h1>
               <p>Citations</p>
             </div>
 
             {/* card2 */}
-            <div className="card2 card">
+            <div className="card2 flcard">
               <h1>20</h1>
               <p>H - Index</p>
             </div>
             
             {/* card3  */}
-            <div className="card3 card">
+            <div className="card3 flcard">
               <h1>20</h1>
               <p>H5 - Index</p>
             </div>
 
             {/* card4 */}
-            <div className="card4 card">
+            <div className="card4 flcard">
               <h1>1553</h1>
               <p>No.of Published Papers in Proceedings</p>
             </div>
 
 {/* card 5 */}
-            <div className="card5 card">
+            <div className="card5 flcard">
               <h1>64</h1>
               <p>No.of Keynotes
 13
@@ -53,44 +53,44 @@ function FlagShip() {
 
 
 {/* card 6  */}
-            <div className="card6 card">
+            <div className="card6 flcard">
               <h1>13</h1>
               <p>No.of Workshops</p>
             </div>
 
 
 {/* card 7  */}
-            <div className="card7 card">
+            <div className="card7 flcard">
               <h1>23%</h1>
               <p>Acceptance Rate</p>
             </div>
 
 
 {/* card 8  */}
-            <div className="card8 card">
+            <div className="card8 flcard">
               <h1>49</h1>
               <p>No.of Participating Countries</p>
             </div>
 
 {/* card9  */}
-            <div className="card9 card">
+            <div className="card9 flcard">
               <h1>15</h1>
               <p>No.of Volumes Published</p>
             </div>
 
 {/* card10  */}
-            <div className="card10 card">
+            <div className="card10 flcard">
               <h1>103</h1>
               <p>No.of Published Papers in Extended Journals(Scopus)</p>
             </div>
 {/* card11  */}
-            <div className="card11 card">
+            <div className="card11 flcard">
               <h1>59</h1>
               <p>No. of Published Papers in Extended Journals(SCIE)</p>
             </div>
  
  {/* card 12 */}
-            <div className="card12 card">
+            <div className="card12 flcard">
               <h1>3990</h1>
               <p>Total No. of Participation</p>
             </div>
